@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AcxiomCRM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>AcxiomCRM</h2>
+    <a href="#">Dashboard</a>
+    <a href="#">Customers</a>
+    <a href="#">Leads</a>
+    <a href="#">Follow-Ups</a>
+    <a href="#">Opportunities</a>
+    <a href="#">Reports</a>
+</div>
+
+<div class="main">
+    <div class="header">
+        <div>
+            <h1>Dashboard</h1>
+            <p>Customer and sales overview</p>
+        </div>
+        <button onclick="addCustomer()">+ Add Customer</button>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <p>Total Customers</p>
+            <h2 id="count">12</h2>
+        </div>
+        <div class="card">
+            <p>Total Leads</p>
+            <h2>8</h2>
+        </div>
+        <div class="card">
+            <p>Open Opportunities</p>
+            <h2>5</h2>
+        </div>
+        <div class="card">
+            <p>Pipeline Value</p>
+            <h2>₹2.5L</h2>
+        </div>
+    </div>
+
+    <div class="customers">
+        <h2>Customers</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>ABC Pvt Ltd</td>
+                <td>abc@example.com</td>
+                <td>9876543210</td>
+                <td>Active</td>
+            </tr>
+            <tr>
+                <td>XYZ Solutions</td>
+                <td>xyz@example.com</td>
+                <td>9876543211</td>
+                <td>Active</td>
+            </tr>
+            <tr>
+                <td>TechNova</td>
+                <td>tech@example.com</td>
+                <td>9876543212</td>
+                <td>Pending</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
